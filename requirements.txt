@@ -24,11 +24,10 @@ ipaddress==1.0.17         # via cryptography
 jira==1.0.7
 lazy==1.2
 lxml==3.6.4               # via parsel, scrapy
-more-itertools==2.2
+more-itertools==2.4.1
 oauthlib==2.0.0           # via requests-oauthlib
 parsel==1.0.3             # via scrapy
 path.py==8.2.1
-psycopg2==2.5.4
 py==1.4.31                # via pytest, pytest-xdist
 pyasn1-modules==0.0.8     # via service-identity
 pyasn1==0.1.9             # via cryptography, pyasn1-modules, service-identity
@@ -47,7 +46,7 @@ requests-toolbelt==0.7.0  # via jira
 requests==2.11.1
 scrapy==1.1.2
 service-identity==16.0.0  # via scrapy
-six==1.10.0               # via cryptography, jira, parsel, pyopenssl, python-dateutil, scrapy, w3lib
+six==1.10.0               # via cryptography, jira, more-itertools, parsel, pyopenssl, python-dateutil, scrapy, w3lib
 smmap==0.9.0              # via gitdb
 SQLAlchemy==0.9.8
 statistics==1.0.3.5
